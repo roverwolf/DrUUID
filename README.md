@@ -3,8 +3,8 @@
 This is a distribution of the PHP UUID library from J. King. I am distributing
 it for my own convenience.
 
-http://jkingweb.ca/code/php/lib.uuid/
-http://jkingweb.ca/
+ - http://jkingweb.ca/code/php/lib.uuid/
+ - http://jkingweb.ca/
 
 
 ## License
