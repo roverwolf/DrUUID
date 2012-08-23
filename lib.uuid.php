@@ -171,7 +171,7 @@ class UUID {
      These are derived from the time at which they were generated. */
   // Do a sanity check on clock sequence
   if ($seq !== NULL && strlen($seq) != 2) {
-   throw UUIDException("Clock sequence most be a two-byte binary string.");
+   throw new UUIDException("Clock sequence most be a two-byte binary string.");
   }
   // If no time is specified, get time since Gregorian calendar 
   // reform in 100ns intervals.  This is exceedingly difficult
