@@ -50,6 +50,7 @@ class UUID {
  const version4 = 64;  // 01000000
  const version5 = 80;  // 01010000
  const interval = 122192928000000000.0; // Time (in 100ns steps) between the start of the UTC and Unix epochs
+ const NIL    = '00000000-0000-0000-0000-000000000000';
  const nsDNS  = '6ba7b810-9dad-11d1-80b4-00c04fd430c8';
  const nsURL  = '6ba7b811-9dad-11d1-80b4-00c04fd430c8';
  const nsOID  = '6ba7b812-9dad-11d1-80b4-00c04fd430c8';
@@ -102,7 +103,7 @@ class UUID {
  
  public static function seq() {
   /* Generate a random clock sequence; this is just two random bytes */
-  return self::ramdonBytes(2);
+  return self::randomBytes(2);
  }
 
  public function __toString() {
@@ -310,5 +311,5 @@ class UUID {
  }
 }
 
-class UUIDException extends Exception {
+class UUIDException extends \Exception {
 }
