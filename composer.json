@@ -1,8 +1,8 @@
 {
-    "name": "roverwolf/DrUUID",
+    "name": "roverwolf/druuid",
     "version": "0.0.7",
     "type": "library",
-    "description": "UUID generation",
+    "description": "A class for working with UUIDs",
     "keywords": ["uuid"],
     "homepage": "http://jkingweb.ca/code/php/lib.uuid/",
     "license": "MIT",
